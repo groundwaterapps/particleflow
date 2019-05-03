@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<jnlp spec="1.0+" 
+      href="particleflow.jnlp">
+    <information>
+        <title>ParticleFlow</title>
+        <vendor>Paul A Hsieh</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.7+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="particleflow.jar" main="true" />
+
+    </resources>
+    <application-desc
+         name="ParticleFlow"
+         main-class="SimSim.particleflow.ssParticleFlowFrame">
+     </application-desc>
+     <update check="background"/>
+</jnlp>
